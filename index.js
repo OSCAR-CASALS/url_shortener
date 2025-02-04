@@ -102,3 +102,9 @@ function post_request(req, res){
 }
 
 app.route("/api/shorturl/:url_short?").get(get_request).post(post_request);
+
+
+
+module.exports = app;
+
+
