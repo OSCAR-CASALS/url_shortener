@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>URL Shortener Microservice</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://www.publicdomainpictures.net/pictures/190000/velka/black-scissors.jpg"
+    />
+    <link href="/public/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <h1>URL Shortener Microservice</h1>
+    <main>
+      <section>
+        <form action="api/shorturl" method="POST">
+          <fieldset>
+            <legend>URL Shortener</legend>
+            <label for="url_input">URL:</label>
+            <input id="url_input" type="text" name="url" placeholder="https://www.google.es" />
+            <input type="submit" value="Shorten URL" />
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>By <a href="https://oscar-casals.github.io/Oscar_Casals_Morro_Portfolio/">Òscar Casals</a></p>
+    </footer>
+  </body>
+</html>
