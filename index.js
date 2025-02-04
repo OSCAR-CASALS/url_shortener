@@ -9,7 +9,6 @@ let mongoose = require('mongoose');
 const { URL } = require('url');
 
 // Basic Configuration
-const port = process.env.PORT || 3000;
 
 app.use(cors());
 
